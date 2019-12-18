@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: dev'n'code
+tagline: it works on my computer!
 email: marco.cotrufo@devncode.it
 description: >- # this means to ignore newlines until "baseurl:"
     it works on my machine!
@@ -27,11 +28,20 @@ url: "https://devncode.it" # the base hostname & protocol for your site, e.g. ht
 twitter_username: devncode
 github_username: marcocot
 
+twitter:
+    card: summary
+    username: devncode
+author:
+    twitter: devncode
+lang: it_IT
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-analytics
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 jekyll_analytics:
     GoogleAnalytics:
@@ -45,6 +55,8 @@ jekyll_analytics:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
+#
+#
 #
 # exclude:
 #   - .sass-cache/

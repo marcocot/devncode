@@ -29,3 +29,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
+
+gem "jekyll-sitemap", "~> 1.4", :group => :jekyll_plugins
+
+gem "jekyll-seo-tag", "~> 2.6", :group => :jekyll_plugins
