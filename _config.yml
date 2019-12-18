@@ -31,6 +31,12 @@ github_username: marcocot
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
+
+jekyll_analytics:
+    GoogleAnalytics:
+        id: UA-35060582-1
+        anonymizeIp: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
