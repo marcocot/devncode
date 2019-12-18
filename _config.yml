@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
     it works on my machine!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devncode.it" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: devncode
+github_username: marcocot
 
 # Build settings
 theme: minima
