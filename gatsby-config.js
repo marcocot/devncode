@@ -7,9 +7,8 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
-    subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    title: "Dev'n'Code",
+    subtitle: 'It works on my machine!',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -27,11 +26,11 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
+      name: 'Marco Cotrufo',
       email: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'marcocot',
       rss: '#',
       vk: '#',
     },
