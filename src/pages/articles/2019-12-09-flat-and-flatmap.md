@@ -7,6 +7,7 @@ draft: false
 tags:
   - 'Javascript'
   - 'FP'
+category: "Javascript"
 description: 'Una delle novità di ES2019 è l’intruduzione (finalmente) di due nuovi metodi dell’oggetto Array: `flat()` e `flatMap()`'
 date: '2019-12-09'
 path: '/posts/javascript/es6-flat-and-flatmap'
