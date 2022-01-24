@@ -7,7 +7,9 @@ title = 'My New Hugo Site'
 author = "Marco Cotrufo"
 description = "test"
 profilePicture = "images/profile-image.png"
-
+readMore = true
+contentratio = 0.8
+gtagId = "G-21KL3MJSLB"
 
 
 summarylength = 10
