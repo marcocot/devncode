@@ -1,0 +1,77 @@
+baseURL = 'http://devncode.it/'
+languageCode = 'it-IT'
+theme = "anatole"
+
+[params]
+title = 'My New Hugo Site'
+author = "Marco Cotrufo"
+description = "test"
+profilePicture = "images/profile-image.png"
+
+
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+mainSections = ["post"]
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe=true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[socialIcons]]
+  icon = "fab fa-github"
+  title = "GitHub"
+  url = "https://github.com/marcocot/"
+
+
+[menu]
+    [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    weight = 100
+    url = "/"
+
+    [[main]]
+    name = "Posts"
+    weight = 200
+    identifier = "posts"
+    url = "/post/"
+
+    [[main]]
+    name = "Portfolio"
+    weight = 300
+    identifier = "portfolio"
+    url = "/portfolio/"
+
+    [[main]]
+    name = "About"
+    weight = 400
+    identifier = "about"
+    url = "/about/"
+
+    [[main]]
+    name = "Contact"
+    weight = 500
+    identifier = "contact"
+    url = "/contact/"
+
+    [[footer]]
+    name = "imprint"
+    weight = 1
+    identifier = "imprint"
+    url = "/imprint/"
