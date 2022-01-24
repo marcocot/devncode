@@ -3,9 +3,9 @@ languageCode = 'it-IT'
 theme = "anatole"
 
 [params]
-title = 'My New Hugo Site'
+title = "Dev'n'Code"
 author = "Marco Cotrufo"
-description = "test"
+description = "It works on my machine!"
 profilePicture = "images/profile-image.png"
 readMore = true
 contentratio = 0.8
