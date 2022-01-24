@@ -35,11 +35,15 @@ mainSections = ["post"]
   series = "series"
   tag = "tags"
 
-[[socialIcons]]
+[[params.socialIcons]]
   icon = "fab fa-github"
   title = "GitHub"
   url = "https://github.com/marcocot/"
 
+[[params.socialIcons]]
+  icon = "fas fa-envelope"
+  title = "e-mail"
+  url = "mailto:marco.cotrufo@devncode.it"
 
 [menu]
     [[menu.main]]
