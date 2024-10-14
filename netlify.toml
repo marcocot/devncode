@@ -1,12 +1,13 @@
 [context.production.environment]
-  HUGO_VERSION = "0.83.1"
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
+HUGO_VERSION = "0.135.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
 
 [build]
-  publish = "public"
-  command = "hugo --gc --minify"
+publish = "public"
+command = "hugo --gc --minify"
 
 [build.environment]
-  YARN_VERSION = "1.3.2"
-  YARN_FLAGS = "--no-ignore-optional"
+YARN_VERSION = "1.3.2"
+YARN_FLAGS = "--no-ignore-optional"
+

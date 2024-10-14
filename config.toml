@@ -1,83 +1,22 @@
 baseURL = 'http://devncode.it/'
 languageCode = 'it-IT'
-theme = "anatole"
+theme = "poison"
+pluralizelisttitles = false
 
 [params]
-title = "Dev'n'Code"
-author = "Marco Cotrufo"
+brand = "Dev'n'Code"
 description = "It works on my machine!"
-profilePicture = "images/profile-image.png"
-readMore = true
-contentratio = 0.8
-gtagId = "G-21KL3MJSLB"
+dark_mode = true
+menu = []
+email_url = "mailto://marco.cotrufo@devncode.it"
+github_url = "https://github.com/marcocot"
+linkedin_url = "https://www.linkedin.com/in/marcocotrufo/"
+rss_icon = true
+rss_section = "posts"
 
-
-summarylength = 10
-enableEmoji = true
-enableRobotsTXT = true
-
-
-# Syntax highlighting
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-
-mainSections = ["post"]
-
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe=true
+[pagination]
+pagerSize = 10
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-
-[[params.socialIcons]]
-  icon = "fab fa-github"
-  title = "GitHub"
-  url = "https://github.com/marcocot/"
-
-[[params.socialIcons]]
-  icon = "fas fa-envelope"
-  title = "e-mail"
-  url = "mailto:marco.cotrufo@devncode.it"
-
-[menu]
-    [[menu.main]]
-    name = "Home"
-    identifier = "home"
-    weight = 100
-    url = "/"
-
-    [[main]]
-    name = "Posts"
-    weight = 200
-    identifier = "posts"
-    url = "/post/"
-
-    [[main]]
-    name = "Portfolio"
-    weight = 300
-    identifier = "portfolio"
-    url = "/portfolio/"
-
-    [[main]]
-    name = "About"
-    weight = 400
-    identifier = "about"
-    url = "/about/"
-
-    [[main]]
-    name = "Contact"
-    weight = 500
-    identifier = "contact"
-    url = "/contact/"
-
-    [[footer]]
-    name = "imprint"
-    weight = 1
-    identifier = "imprint"
-    url = "/imprint/"
+series = 'series'
+tags = 'tags'
