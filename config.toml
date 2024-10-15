@@ -1,4 +1,4 @@
-baseURL = 'http://devncode.it/'
+baseURL = 'https://devncode.it/'
 languageCode = 'it-IT'
 theme = "poison"
 pluralizelisttitles = false
