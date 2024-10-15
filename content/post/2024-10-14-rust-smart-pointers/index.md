@@ -3,7 +3,7 @@ title: "Rust: smart pointers"
 date: 2024-10-14
 draft: false
 tags: []
-path: '/posts/test/rust-smart-pointers'
+path: "/posts/2024-10-14/rust/rust-smart-pointers"
 ---
 
 # Smart Pointer in Rust: Una Guida Completa 🚀
@@ -38,10 +38,12 @@ In questo caso, usando `Box`, l'array viene allocato sull'heap, evitando di satu
 #### Pro e Contro di `Box`
 
 **Pro:**
+
 - Semplice da usare.
 - Consente di gestire grandi quantità di dati senza il rischio di overflow dello stack.
 
 **Contro:**
+
 - L'accesso ai dati sull'heap può essere leggermente più lento rispetto ai dati sullo stack.
 - Gestione manuale della memoria (anche se in gran parte gestita da Rust).
 
@@ -72,11 +74,11 @@ use std::thread;
 fn main() {
     let valore = Arc::new(5);
     let primo_riferimento = Arc::clone(&valore);
-    
+
     let nuovo_thread = thread::spawn(move || {
         println!("Valore nel thread: {}", *primo_riferimento);
     });
-    
+
     nuovo_thread.join().unwrap();
     println!("Valore nel thread principale: {}", *valore);
 }
@@ -85,10 +87,12 @@ fn main() {
 #### Pro e Contro di `Rc` e `Arc`
 
 **Pro:**
+
 - Permettono la condivisione di dati tra più parti del programma.
 - `Arc` è sicuro per l'uso in contesti multithread.
 
 **Contro:**
+
 - Overhead di performance dovuto al conteggio dei riferimenti.
 - `Rc` non è thread-safe.
 
