@@ -7,7 +7,9 @@ pluralizelisttitles = false
 brand = "Dev'n'Code"
 description = "It works on my machine!"
 dark_mode = true
-menu = []
+menu = [
+    {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+]
 email_url = "mailto://marco.cotrufo@devncode.it"
 github_url = "https://github.com/marcocot"
 linkedin_url = "https://www.linkedin.com/in/marcocotrufo/"
